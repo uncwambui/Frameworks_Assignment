@@ -1,23 +1,24 @@
 📊 CORD-19 Frameworks Assignment
 
-This project explores the CORD-19 research dataset (metadata.csv) and builds a simple Streamlit app to visualize COVID-19 research trends.
+
+-This project explores the CORD-19 research dataset (metadata.csv) and builds a simple Streamlit app to visualize COVID-19 research trends.
 
 
 
 
 🚀 Project Overview
 
-The goal of this assignment is to:
+-The goal of this assignment is to:
 
-Practice loading and exploring a real-world dataset
+-Practice loading and exploring a real-world dataset
 
-Perform data cleaning and transformation
+-Perform data cleaning and transformation
 
-Create basic visualizations (trends, journals, keywords)
+-Create basic visualizations (trends, journals, keywords)
 
-Build a Streamlit app for interactive exploration
+-Build a Streamlit app for interactive exploration
 
-Document the workflow and insights
+-Document the workflow and insights
 
 
 
@@ -38,10 +39,11 @@ Frameworks_Assignment/
 
 📥 Dataset
 
-⚠️ The dataset is not included in this repo (because it’s too large).
+-⚠️ The dataset is not included in this repo (because it’s too large).
 
-Download the metadata.csv file from Kaggle:
-👉 CORD-19 Research Challenge
+-Download the metadata.csv file from Kaggle:
+
+-👉 CORD-19 Research Challenge
 
 Place it in the root of this project, like this:
 
@@ -54,77 +56,59 @@ Frameworks_Assignment/
 
 
 
-📓 Jupyter Notebook Exploration
-
-To run the notebook:
-
-jupyter lab
-
-
-or
-
-jupyter notebook
-
-
 Open notebooks/exploration.ipynb and run the cells to explore:
+-Data dimensions & types
 
-Data dimensions & types
+-Missing values
 
-Missing values
+-Publication trends by year
 
-Publication trends by year
+-Top journals
 
-Top journals
-
-Frequent keywords
-
+-Frequent keywords
 
 
 
-🌐 Streamlit App
 
-Run the app locally:
-
-streamlit run app.py
 
 
 
 Features:
 
-Slider to filter publications by year
+-Slider to filter publications by year
 
-Bar chart of publications over time
+-Bar chart of publications over time
 
-Top publishing journals
+-Top publishing journals
 
-Word cloud of research titles
+-Word cloud of research titles
 
-Sample data preview
+-Sample data preview
 
 
 
 
 📊 Example Visualizations
 
-Publications over time (2019–2021)
+-Publications over time (2019–2021)
 
-Most common journals
+-Most common journals
 
-Word cloud of paper titles
+-Word cloud of paper titles
 
-(Generated plots will appear inside the Streamlit app)
+-(Generated plots will appear inside the Streamlit app)
 
 
 
 📝 Reflection
 
-Handling the dataset required sampling since metadata.csv is ~1.5 GB.
+-Handling the dataset required sampling since metadata.csv is ~1.5 GB.
 
-Learned how to clean and preprocess large datasets using pandas.
+-Learned how to clean and preprocess large datasets using pandas.
 
-Built basic but meaningful visualizations to highlight COVID-19 research trends.
+-Built basic but meaningful visualizations to highlight COVID-19 research trends.
 
-First experience deploying results into an interactive web app with Streamlit.
+-First experience deploying results into an interactive web app with Streamlit.
 
 
 
@@ -141,8 +125,10 @@ First experience deploying results into an interactive web app with Streamlit.
 ✅ Documentation (this README + notebooks)
 
 
+
+
 🙌 Acknowledgments
 
-Dataset: CORD-19 Kaggle Challenge
+-Dataset: CORD-19 Kaggle Challenge
 
-Tools: Python, pandas, matplotlib, seaborn, Streamlit
+-Tools: Python, pandas, matplotlib, seaborn, Streamlit
